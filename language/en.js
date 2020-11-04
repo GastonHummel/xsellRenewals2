@@ -45,7 +45,33 @@ var Translations = {
    *
    * If the CTA buttons are not required then remove the content from the variable - "CtaButtonSettings": {};
    */
-  CtaButtonSettings: {},
+  CtaButtonSettings: {
+        "button1": {
+            "card": "d1b4d742",
+            "label": "Contact",
+            "icon": "contact"
+        },
+        "button2": {
+            "card": "d1b4d742",
+            "label": "Website",
+            "icon": "website"
+        },
+        "button3": {
+            "card": "d1b4d742",
+            "label": "Email",
+            "icon": "email"
+        },
+        "button4": {
+            "card": "d1b4d742",
+            "label": "Save",
+            "icon": "save"
+        },
+        "button5": {
+            "url": "http://example.com/",
+            "label": "Share",
+            "icon": "share"
+        }
+    },
 
   /**
    * Settings for the promo graphic sections. Between 1 and 5 promo areas can be added to the page.
@@ -60,7 +86,22 @@ var Translations = {
    *
    * If the promo area is not required then remove the content from the variable - "PromoSettings": {};
    */
-  PromoSettings: {},
+  PromoSettings: {
+        "promo1": {
+            "trackingName": "promo1",
+            "url": "http://example.com/",
+            "label": "Promo (Top)",
+            "desktopImage": "./images/promo_portrait.png",
+            "mobileImage": "./images/promo_landscape.png"
+        },
+        "promo2": {
+            "trackingName": "promo2",
+            "url": "http://example.com/",
+            "label": "Promo (Bottom)",
+            "desktopImage": "./images/promo_portrait.png",
+            "mobileImage": "./images/promo_landscape.png"
+        }
+    },
 
   /**
    * Chapter settings used to build the timeline and StateMap, which maps video states to friendly names.
