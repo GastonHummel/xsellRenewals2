@@ -77,7 +77,7 @@ var Translations = {
       states: [
         {
           cardId: 'START',
-          width: 50
+          width: 100
         }
       ]
     }
