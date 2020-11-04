@@ -24,7 +24,7 @@ var Translations = {
 
   PreparedForText: 'Prepared for',
 
-  CopyrightText: ' ' + Utils.getFullYear() + ' Client Name. All rights reserved.',
+  CopyrightText: ' ' + Utils.getFullYear() + ' Precisely. All rights reserved.',
   PoweredByFooterText: 'Powered by',
   HelpFooterText: 'Help',
   PrivacyPolicyFooterText: 'Privacy Policy',
