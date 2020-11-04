@@ -73,19 +73,10 @@ var Translations = {
    */
   ChapterSettings: [
     {
-      label: 'Renewal Details',
+      label: 'EngageOne Renewal Reminder',
       states: [
         {
           cardId: 'START',
-          width: 50
-        }
-      ]
-    },
-	{
-      label: 'Summary',
-      states: [
-        {
-          cardId: 'e0815a1f',
           width: 50
         }
       ]
