@@ -73,11 +73,20 @@ var Translations = {
    */
   ChapterSettings: [
     {
-      label: 'EngageOne Renewals Video',
+      label: 'Renewal Details',
       states: [
         {
           cardId: 'START',
-          width: 100
+          width: 50
+        }
+      ]
+    },
+	{
+      label: 'Summary',
+      states: [
+        {
+          cardId: 'e0815a1f',
+          width: 50
         }
       ]
     }
