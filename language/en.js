@@ -73,11 +73,29 @@ var Translations = {
    */
   ChapterSettings: [
     {
-      label: 'Precisely Renewal Reminder',
+      label: '',
       states: [
         {
           cardId: 'START',
-          width: 100
+          width: 0
+        }
+      ]
+    },
+    {
+      label: 'Renewal Details',
+      states: [
+        {
+          cardId: 'f1ee38ad',
+          width: 50
+        }
+      ]
+    },
+    {
+      label: 'Next Steps',
+      states: [
+        {
+          cardId: 'd442f481',
+          width: 50
         }
       ]
     }
