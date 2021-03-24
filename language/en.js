@@ -73,15 +73,6 @@ var Translations = {
    */
   ChapterSettings: [
     {
-      label: '',
-      states: [
-        {
-          cardId: 'START',
-          width: 0
-        }
-      ]
-    },
-    {
       label: 'Renewal Details',
       states: [
         {
