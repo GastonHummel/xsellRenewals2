@@ -22,29 +22,29 @@
  *      "text" sets the alternate text used on screen-readers by default
  */
 var socialIconSettings = {
-    "position": "right",
-    "icons": {
-        "facebook": {
-            "url": "https://facebook.com",
-            "text": "Facebook"
-        },
-        "twitter": {
-            "url": "https://twitter.com",
-            "text": "Twitter"
-        },
-        "googleplus": {
-            "url": "https://plus.google.com",
-            "text": "Google+"
-        },
-        "email": {
-            "url": "mailto:",
-            "text": "Email"
-        },
-        "link": {
-            "url": "https://pb.com",
-            "text": "Website"
-        }
-    }
+  position: 'right',
+  icons: {
+    // "facebook": {
+    //     "url": "https://facebook.com",
+    //     "text": "Facebook"
+    // },
+    // "twitter": {
+    //     "url": "https://twitter.com",
+    //     "text": "Twitter"
+    // },
+    // "googleplus": {
+    //     "url": "https://plus.google.com",
+    //     "text": "Google+"
+    // },
+    // "email": {
+    //     "url": "mailto:",
+    //     "text": "Email"
+    // },
+    // "link": {
+    //     "url": "https://pb.com",
+    //     "text": "Website"
+    // }
+  }
 };
 
 /**
@@ -60,12 +60,12 @@ var socialIconSettings = {
  * "FullScreenEnabled" enables the fullscreen functionality of the landing page
  */
 var timelineSettings = {
-    "SeenChaptersEnabled": false,
-    "ContrastProgressBarEnabled": false,
-    "BufferBarEnabled": true,
-    "ClosedCaptionsSupported": true,
-    "MultiLanguageSupported": true,
-    "FullScreenEnabled": true
+  SeenChaptersEnabled: false,
+  ContrastProgressBarEnabled: false,
+  BufferBarEnabled: true,
+  ClosedCaptionsSupported: true,
+  MultiLanguageSupported: true,
+  FullScreenEnabled: true
 };
 
 /**
@@ -76,9 +76,9 @@ var timelineSettings = {
  *    the name of the corresponding language file. And the value will be displayed on the language selection menu.
  */
 var languageSettings = {
-    "defaultLanguage": "en",
-    "languages": {
-        "en": "English (EN)",
-        "es": "Espa&ntilde;ol (ES)"
-    }
+  defaultLanguage: 'en',
+  languages: {
+    en: 'English (EN)',
+    es: 'Espa&ntilde;ol (ES)'
+  }
 };
